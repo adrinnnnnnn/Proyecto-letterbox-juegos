@@ -5,10 +5,12 @@
     <div class="ranking-inner">
         <% games.forEach(g => {  %> 
     <a href="/game/<%= g.id %>">
-        <div class="ranking-inner-ranking <%= (g.metacritic > 95)? 'top': '' %>">
+
+        <figure class="ranking-inner-ranking <%= (g.metacritic > 95)? 'top': '' %>">
             <img src="<%= g.image %>" alt="<%= g.alt %>">
-            <h5> <%= g.title %> </h5>
-        </div>
+            <figcaption><%= g.title %> </figcaption>
+        </figure>
+
     </a>
 
     <% }) %> 
