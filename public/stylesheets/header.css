@@ -3,8 +3,6 @@ header.header {
     background-color: var(--color_fondo);
     color: var(--color_titulos);
     padding: 1.5rem 1rem;
-    /*display: flex;
-    flex-direction: column;*/
     justify-content: center;
     align-items: center;
     gap: 1rem;
