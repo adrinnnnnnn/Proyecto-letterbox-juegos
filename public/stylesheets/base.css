@@ -1,0 +1,12 @@
+*{
+    border: 1px red solid;
+}
+
+body {
+    background-color: var(--color_fondo);
+    color: var(--color_titulos);
+    font-family: var(--tipo_fuente);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+}

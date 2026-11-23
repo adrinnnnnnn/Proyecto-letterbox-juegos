@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "ranking": 1,
+    "image": "https://picsum.photos/id/1015/400/260",
+    "alt": "Mountain landscape used as cover art for Elden Ring",
+    "title": "Elden Ring",
+    "description": "An open-world action RPG from FromSoftware set in the Lands Between, where players explore vast regions, face brutal bosses and uncover a mythology crafted with George R. R. Martin.",
+    "metacritic": 96
+  },
+  {
+    "id": 2,
+    "ranking": 2,
+    "image": "https://picsum.photos/id/1016/400/260",
+    "alt": "Forest path used as cover art for Baldur's Gate 3",
+    "title": "Baldur's Gate 3",
+    "description": "A party-based RPG by Larian Studios built on Dungeons & Dragons 5th Edition rules, offering deep turn-based combat, branching choices and a story shaped by every decision.",
+    "metacritic": 96
+  },
+  {
+    "id": 3,
+    "ranking": 3,
+    "image": "https://picsum.photos/id/1036/400/260",
+    "alt": "City skyline at night used as cover art for Hades II",
+    "title": "Hades II",
+    "description": "A roguelike dungeon crawler from Supergiant Games in which Melinoë, Princess of the Underworld, battles through the Greek myths to defeat the Titan of Time, Chronos.",
+    "metacritic": 95
+  },
+  {
+    "id": 4,
+    "ranking": 4,
+    "image": "https://picsum.photos/id/1039/400/260",
+    "alt": "Waterfall in a green valley used as cover art for The Legend of Zelda: Tears of the Kingdom",
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "description": "Nintendo's sequel to Breath of the Wild expands Hyrule into the skies and depths, letting Link build vehicles and contraptions with new abilities to solve puzzles freely.",
+    "metacritic": 96
+  }
+]

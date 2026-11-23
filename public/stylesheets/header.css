@@ -1,0 +1,61 @@
+/* Cabecera: título del sitio y menú de navegación */
+header.header {
+    background-color: var(--color_fondo);
+    color: var(--color_titulos);
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 2px solid var(--color_resaltar);
+
+    /* Título del sitio */
+    h1 {
+        margin: 0;
+        color: var(--color_resaltar);
+        font-family: var(--tipo_fuente);
+        letter-spacing: 2px;
+    }
+
+    /* Menú de navegación */
+    nav.menu {
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            /* Un único borde para todo el menú, así los enlaces quedan unidos */
+            border: 1px solid var(--color_primer_plan);
+            border-radius: 3px;
+
+            li {
+                list-style-type: none;
+
+                /* Separador entre enlaces, excepto en el último */
+                &:not(:last-child) {
+                    border-right: 1px solid var(--color_primer_plan);
+                }
+
+                a {
+                    display: block;
+                    padding: 0.5rem 1rem;
+                    color: var(--color_primer_plan);
+                    text-decoration: none;
+                    /* Animación suave al pasar el ratón */
+                    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+
+                    &:hover {
+                        color: var(--color_fondo);
+                        background-color: var(--color_resaltar);
+                        border-radius: 3px;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}

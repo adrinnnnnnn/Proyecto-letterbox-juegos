@@ -1,0 +1,10 @@
+:root {
+
+    --color_fondo : #000;
+    --color_primer_plan : #eee;
+    --color_titulos : #fff;
+    --color_resaltar: rgb(227, 204, 57);
+    --ancho_pagina : 1200px;
+    --tipo_fuente: sans-serif;
+    --ancho_tarjeta: 200px;
+}

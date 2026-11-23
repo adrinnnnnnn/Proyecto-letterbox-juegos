@@ -1,0 +1,21 @@
+<section class="ranking">
+    <h2>November 2026 standouts</h2>
+    <p></p>
+
+    <div class="ranking-inner">
+        <% games.forEach(g => {  %> 
+    <a href="/game/<%= g.id %>">
+        <div class="ranking-inner-ranking <%= (g.metacritic > 95)? 'top': '' %>">
+            <img src="<%= g.image %>" alt="<%= g.alt %>">
+            <h5> <%= g.title %> </h5>
+        </div>
+    </a>
+
+    <% }) %> 
+    </div>
+
+
+
+
+
+</section>
